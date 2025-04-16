@@ -25,6 +25,7 @@ const Card = ({ product }) => {
               src={product.image}
               alt={product.name}
               className="rounded-md max-h-full"
+              loading="lazy"
             />
           </figure>
         </div>
